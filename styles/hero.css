@@ -36,7 +36,6 @@ section.hero {
 
   & h1 span {
     display: block;
-
     animation: slideUp 5s 1s infinite ease;
   }
 
@@ -205,8 +204,8 @@ section.hero {
 @media (width <= 70rem) {
   section.hero {
 
-    --time-in: -2.31rem;
-    --bounce: 2.31px;
+    --time-in: -2.5rem;
+    --bounce: 5px;
 
     flex-direction: column-reverse;
 
@@ -216,7 +215,7 @@ section.hero {
       font-size: 2rem;
     }
 
-    &  h1 div {
+    & h1 div {
       height: 2.31rem;
       margin-bottom: 3px;
     }
@@ -230,8 +229,5 @@ section.hero {
         }
       }
     }
-
-  & > div:nth-child(2){
-  }
   }
 }
